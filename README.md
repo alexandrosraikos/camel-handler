@@ -2,15 +2,15 @@
 
 A Python module which handles CAMEL modeling configuration recommendations.
 
-## Getting started
-
-Follow the steps below to get started with `camel_handler`.
-
 ### Important information
 
 **If you haven't been specifically instructed to use this module, then you most likely do not need it.**
 
 This module has been developed in accordance to the requirements of the [MORPHEMIC](https://www.mophemic.cloud/) research project funded by the European Union's Horizon 2020 Research and Innovation program under grant agreement No. 871643.
+
+## Getting started
+
+Follow the steps below to get started with `camel_handler`.
 
 ### Installation
 

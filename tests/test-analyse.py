@@ -9,14 +9,27 @@
 import unittest
 import os
 
+from camel_handler import CAMELModel
+
 class ValidationTest(unittest.TestCase):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
 
     def test_model_validation(self):
         """
         Test using the data directory.
         """
+        dir_path = os.path.dirname(os.path.realpath(__file__))
         print("Initialising CAMEL model validation..")
+        model = CAMELModel(dir_path + "/data/Genom.xmi")
+        print("Getting deployment model metadata..")
+        print(model.get_deployment_metadata())
+        print("Setting deployment model metadata..")
+        model.set_deployment_metadata(
+            'ComponentSparkWorker',
+            'configSpark',
+            'memoryWidth',
+            'type:StringValue',
+            '256GB'
+            )
 
 
 if __name__ == "__main__":

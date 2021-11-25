@@ -4,8 +4,6 @@
 # @version 1.0.0
 #
 
-# TODO @alexandrosraikos: Write the validation unit test.
-
 import unittest
 import os
 

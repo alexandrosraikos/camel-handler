@@ -6,6 +6,3 @@
 
 # Local dependencies.
 from .src.parser import CAMELModel
-
-# TODO @alexandrosraikos: Create recommendation generator endpoint enabler function.
-# TODO @alexandrosraikos: Create recommendation confirmation endpoint enabler function.

@@ -5,7 +5,6 @@
 #
 
 from os import supports_follow_symlinks
-import pprint
 from typing import Dict
 
 # Third party dependencies.

@@ -10,6 +10,8 @@ This module has been developed in accordance to the requirements of the [MORPHEM
 
 ## Getting started
 
+It is advised to use this library on VS Code, or on any code editor that works with Python code documentation.
+
 Follow the steps below to get started with `camel_handler`.
 
 ### Installation
@@ -25,6 +27,23 @@ cd camel-handler
 
 # Install locally
 pip install .
+```
+
+### Getting and setting deployment metadata
+
+```python
+# To get deployment model metadata.
+model = CAMELModel(dir_path + "/data/Genom.xmi")
+print(model.get_deployment_metadata())
+
+# To set deployment model metadata.
+model.set_deployment_metadata(
+    'ComponentSparkWorker',
+    'configSpark',
+    'memoryWidth',
+    'type:StringValue',
+    '256GB'
+)
 ```
 
 ## Unit testing

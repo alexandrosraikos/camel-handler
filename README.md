@@ -1,6 +1,6 @@
 # CAMEL Handler
 
-A Python module which handles CAMEL modeling configuration recommendations.
+A Python module which handles CAMEL modeling configuration recommendations. This module concerns accessing and manipulating a .camel here in its parsed XMI format. Find out more information about CAMEL [here](http://camel-dsl.org).
 
 ### Important information
 
